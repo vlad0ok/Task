@@ -1,0 +1,215 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+body header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(233, 62, 119);
+  padding: 5px 10px;
+}
+body header .title {
+  font-size: 40px;
+  font-weight: 700;
+}
+body header .title a {
+  color: white;
+}
+body header .header-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+body header img {
+  width: 40px;
+  height: 40px;
+}
+body main {
+  background-color: rgb(228, 228, 228);
+}
+body main .search {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+  background-color: rgba(243, 167, 229, 0.484);
+}
+body main .search input[type=text] {
+  padding: 5px 20px;
+}
+body main .breadcrumbs {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin: 10px 10px 0 10px;
+}
+body main .breadcrumbs img {
+  width: 15px;
+  height: 15px;
+}
+body main .breadcrumbs a {
+  text-decoration: underline;
+  color: rgb(0, 86, 147);
+}
+body main .master {
+  margin: 10px 10px;
+}
+body main .master .card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 30px;
+  background-color: rgba(152, 171, 207, 0.35);
+}
+body main .master .card .card-icons .max {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background-color: rgb(233, 62, 119);
+  color: white;
+  padding: 7px;
+  border-radius: 5px;
+}
+body main .master .card .card-icons .light {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: white;
+  color: rgb(22, 128, 22);
+  padding: 7px;
+  border-radius: 5px;
+}
+body main .master .card .card-icons .light img {
+  width: 15px;
+  height: 15px;
+}
+body main .master .card .master-title {
+  font-size: 30px;
+  font-weight: 700;
+}
+body main .master .card .online {
+  color: rgb(22, 128, 22);
+}
+body main .master .card .card-rating {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+body main .master .card .card-rating h3 {
+  font-weight: 700;
+}
+body main .master .card .card-rating h3 a {
+  color: rgb(0, 86, 147);
+}
+body main .master .buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  margin: 7px 0;
+}
+body main .master .buttons button {
+  background-color: white;
+  padding: 7px 15px;
+  width: 25%;
+  border: none;
+  box-shadow: 0 0 2px black;
+  border-radius: 5px;
+  color: rgb(0, 86, 147);
+  cursor: pointer;
+}
+body main .master .buttons button:hover {
+  transition: all 0.5s;
+  background-color: rgb(233, 62, 119);
+  color: white;
+}
+body main .master .about {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 20px;
+  padding: 25px 15px 0 15px;
+  background-color: white;
+}
+body main .master .about h3 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: 700;
+}
+body main .master .about h3 img {
+  width: 15px;
+  height: auto;
+}
+body main .master .about span {
+  font-weight: 700;
+}
+body main .master .about .about-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+body main .master .about .about-buttons button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 50%;
+  padding: 5px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+body main .master .about .about-buttons .about-btn-call {
+  background-color: rgb(0, 87, 163);
+}
+body main .master .about .about-buttons .about-btn-call img {
+  width: 30px;
+  height: 30px;
+}
+body main .master .about .about-buttons .about-btn-book {
+  background-color: rgb(0, 125, 0);
+}
+body main .master .about .about-buttons .about-btn-book img {
+  width: 30px;
+  height: 30px;
+}
+
+@media (max-width: 368px) {
+  main .master .card img {
+    width: 120px;
+    height: 120px;
+  }
+  main .master .card p {
+    font-size: 12px;
+  }
+  main .master .card .card-rating img {
+    width: 20px;
+    height: 20px;
+  }
+  main .master .card .master-title {
+    font-size: 20px !important;
+    font-weight: 500;
+  }
+  main .master .about .about-buttons .about-btn-call, main .master .about .about-buttons .about-btn-book {
+    font-size: 12px;
+  }
+}
+@media (max-width: 768px) {
+  main .breadcrumbs {
+    gap: 2px;
+  }
+  main .breadcrumbs a {
+    font-size: 12px;
+  }
+}
