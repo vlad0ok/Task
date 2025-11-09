@@ -20,6 +20,12 @@ body header .header-right {
   align-items: center;
   gap: 15px;
 }
+body header .header-right select {
+  color: white;
+  background: none;
+  border: none;
+  outline: none;
+}
 body header img {
   width: 40px;
   height: 40px;
@@ -35,6 +41,15 @@ body main .search {
 }
 body main .search input[type=text] {
   padding: 5px 20px;
+  border: 2px solid rgb(202, 127, 152);
+  border-radius: 5px;
+  outline: none;
+}
+body main .search select {
+  color: rgb(0, 86, 147);
+  background: none;
+  border: none;
+  outline: none;
 }
 body main .breadcrumbs {
   display: flex;
@@ -102,6 +117,7 @@ body main .master .card .card-rating {
   flex-direction: row;
   align-items: center;
   gap: 10px;
+  margin-top: 10px;
 }
 body main .master .card .card-rating h3 {
   font-weight: 700;

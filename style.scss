@@ -21,6 +21,13 @@ body {
             display: flex;
             align-items: center;
             gap: 15px;
+
+            select {
+                color: white;
+                background: none;
+                border: none;
+                outline: none;
+            }
         }
 
         img {
@@ -40,6 +47,16 @@ body {
 
             input[type="text"] {
                 padding: 5px 20px;
+                border: 2px solid rgb(202, 127, 152);
+                border-radius: 5px;
+                outline: none;
+            }
+
+            select {
+                color: rgb(0, 86, 147);
+                background: none;
+                border: none;
+                outline: none;
             }
         }
 
@@ -119,6 +136,7 @@ body {
                     flex-direction: row;
                     align-items: center;
                     gap: 10px;
+                    margin-top: 10px;
 
                     h3 {
                         font-weight: 700;
