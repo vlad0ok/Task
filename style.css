@@ -26,6 +26,29 @@ body header .header-right select {
   border: none;
   outline: none;
 }
+body header .header-right .burger-menu {
+  position: relative;
+}
+body header .header-right .burger-menu .burger-icon-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+body header .header-right .burger-menu .menu {
+  position: absolute;
+  display: none;
+  background-color: white;
+  padding: 10px;
+  top: 50px;
+  right: 0px;
+  z-index: 2;
+}
+body header .header-right .burger-menu .menu li {
+  margin-top: 5px;
+}
+body header .header-right .burger-menu .menu li a {
+  color: rgb(233, 62, 119);
+}
 body header img {
   width: 40px;
   height: 40px;

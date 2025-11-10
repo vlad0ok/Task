@@ -28,6 +28,34 @@ body {
                 border: none;
                 outline: none;
             }
+
+            .burger-menu {
+                position: relative;
+
+                .burger-icon-btn {
+                    background: none;
+                    border: none;
+                    cursor: pointer;
+                }
+
+                .menu {
+                    position: absolute;
+                    display: none;
+                    background-color: white;
+                    padding: 10px;
+                    top: 50px;
+                    right: 0px;
+                    z-index: 2;
+                    
+                    li {
+                        margin-top: 5px;
+
+                        a {
+                            color: rgb(233, 62, 119);
+                        }
+                    }
+                }
+            }
         }
 
         img {
